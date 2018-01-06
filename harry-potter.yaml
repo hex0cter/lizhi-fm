@@ -1,0 +1,81 @@
+headers:
+  - Referer: http://www.lizhi.fm/box
+resources:
+  - name: 01-01.mp3
+    href: http://cdn5.lizhi.fm/audio/2016/10/25/2564306333261015558_hd.mp3
+  - name: 01-02.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499655571385248262_hd.mp3
+  - name: 01-03.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499655644399693830_hd.mp3
+  - name: 01-04.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499655728151556614_hd.mp3
+  - name: 01-05.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499655829083289094_hd.mp3
+  - name: 01-06.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499656213482867206_hd.mp3
+  - name: 01-07.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499656295087247366_hd.mp3
+  - name: 01-08.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499656363806725126_hd.mp3
+  - name: 01-09.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499656426083751942_hd.mp3
+  - name: 01-10.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499656496950713350_hd.mp3
+  - name: 01-11.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499656574260126214_hd.mp3
+  - name: 01-12.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499656662306956806_hd.mp3
+  - name: 01-13.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499656743911335942_hd.mp3
+  - name: 01-14.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499656821220748294_hd.mp3
+  - name: 01-15.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499656902825128966_hd.mp3
+  - name: 01-16.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499656993019443206_hd.mp3
+  - name: 01-17.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499657055296470022_hd.mp3
+  - name: 01-18.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499657134753366022_hd.mp3
+  - name: 01-19.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499657197030392838_hd.mp3
+  - name: 01-20.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499657287224707078_hd.mp3
+  - name: 01-21.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499657381713989638_hd.mp3
+  - name: 01-22.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499657456875917830_hd.mp3
+  - name: 01-23.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499657534185330182_hd.mp3
+  - name: 01-24.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499657605052291590_hd.mp3
+  - name: 01-25.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499657671624285702_hd.mp3
+  - name: 01-26.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499657985156902406_hd.mp3
+  - name: 01-27.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499658174135464454_hd.mp3
+  - name: 01-28.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499658249297392646_hd.mp3
+  - name: 01-29.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499658309426936838_hd.mp3
+  - name: 01-30.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499658526322787334_hd.mp3
+  - name: 01-31.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499658631549486598_hd.mp3
+  - name: 01-32.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499658779725858822_hd.mp3
+  - name: 01-33.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499658863477722118_hd.mp3
+  - name: 01-34.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499660602939486214_hd.mp3
+  - name: 01-35.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499660796213016582_hd.mp3
+  - name: 01-36.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499662024573668870_hd.mp3
+  - name: 01-37.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499662140537787910_hd.mp3
+  - name: 01-38.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499662237174552582_hd.mp3
+  - name: 01-39.mp3
+    href: http://cdn5.lizhi.fm/audio/2015/11/11/2499662370318541830_hd.mp3
