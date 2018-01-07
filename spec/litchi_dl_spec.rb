@@ -1,13 +1,6 @@
 require "spec_helper"
 require "mp3info"
 
-describe LitchiFm do
-  it "say hi" do
-    expect(LitchiFm.hi).to eql 'Hello world!'
-  end
-end
-
-
 describe LitchiFm::Downloader do
   it 'can download mp3 files' do
     downloader = LitchiFm::Downloader.new(File.join('spec', 'test-data', 'download.yaml'))
