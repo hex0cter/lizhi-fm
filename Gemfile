@@ -1,3 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rest-client'
+gemspec
+
+group :development, :test do
+  gem 'rake'
+  gem 'rspec'
+  gem 'rspec-matcher'
+  gem 'coveralls', require: false
+end
