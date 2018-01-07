@@ -1,0 +1,7 @@
+headers:
+  Referer: http://www.lizhi.fm/box
+resources:
+  - name: 01-01.mp3
+    url: http://cdn5.lizhi.fm/audio/2016/10/25/2564306333261015558_hd.mp3
+  - name: 01-02.mp3
+    url: http://cdn5.lizhi.fm/audio/2015/11/11/2499655571385248262_hd.mp3

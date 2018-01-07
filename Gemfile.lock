@@ -53,6 +53,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.7.0)
     rspec-support (3.7.0)
+    ruby-mp3info (0.8.10)
     simplecov (0.14.1)
       docile (~> 1.1.0)
       json (>= 1.8, < 3)
@@ -78,6 +79,7 @@ DEPENDENCIES
   rake
   rspec
   rspec-matcher
+  ruby-mp3info
 
 BUNDLED WITH
    1.16.1

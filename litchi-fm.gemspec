@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.description  = "Comamnd line tool to download your favourite mp3 from lizhi.fm."
   s.authors      = ["Daniel Han"]
   s.email        = 'hex0cter@gmail.com'
+  s.required_ruby_version = '>= 2.1.0'
 
-  # If you have other dependencies, add them here
   s.add_dependency "rest-client", "~> 2.0"
 
   s.files        = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
