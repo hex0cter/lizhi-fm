@@ -3,6 +3,7 @@ PATH
   specs:
     litchi-fm (0.0.1)
       rest-client (~> 2.0)
+      thor (~> 0.19)
 
 GEM
   remote: https://rubygems.org/

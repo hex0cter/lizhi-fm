@@ -26,7 +26,9 @@ module LitchiFm
             successes[url] = file_name
           else
             failures << url
+            puts "Unable to download #{url}"
           end
+          print '.'
         end
       end
       threads.each { |thr| thr.join }

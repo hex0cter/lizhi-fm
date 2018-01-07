@@ -11,9 +11,11 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.1.0'
 
   s.add_dependency "rest-client", "~> 2.0"
+  s.add_dependency "thor", "~> 0.19"
 
   s.files        = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
   s.require_path = 'lib'
+  s.executables = ["litchi"]
   s.homepage     = 'http://rubygems.org/gems/litchi-fm'
   s.license      = 'MIT'
 end
