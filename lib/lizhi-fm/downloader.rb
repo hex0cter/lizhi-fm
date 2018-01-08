@@ -1,4 +1,5 @@
 require 'yaml'
+require 'digest'
 require 'rest-client'
 
 module LizhiFm
@@ -25,24 +26,48 @@ module LizhiFm
       successes = {}
 
       threads = []
+      urls = []
+      outputs = {}
       @config['resources'].each do |resource|
         destination = resource['name']
         url = resource['url']
+        urls << url
 
         threads << Thread.new do
-          response = RestClient.get(url, headers=headers)
-          if response.code == 200
-            file_name = File.join(Dir.pwd, destination)
-            File.write(file_name, response.body)
-            successes[url] = file_name
-          else
-            failures << url
-            puts "Unable to download #{url}"
+          outputs[url] = {}
+
+          # The server use 206 during transferring.
+          # Sometimes the response are incomplete.
+          # We download each file up to 10 times and
+          # save it once there are two identical
+          # results.
+          10.times do
+            response = RestClient.get(url, headers=headers)
+            md5 = Digest::SHA256.hexdigest response.body
+
+            if response.code != 200
+              print '-'
+              continue
+            end
+
+            if outputs[url].has_key?(md5)
+              file_name = File.join(Dir.pwd, destination)
+              File.write(file_name, response.body)
+              successes[url] = file_name
+              print '='
+              break
+            else
+              outputs[url][md5] = response.body
+              print '+'
+            end
           end
-          print '.'
         end
       end
       threads.each { |thr| thr.join }
+
+      urls.each do |url|
+        failures << url unless successes.has_key?(url)
+      end
 
       {failures: failures, successes: successes}
     end
