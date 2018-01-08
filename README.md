@@ -1,4 +1,4 @@
-# lizhi-fm ruby gem
+# lizhi-fm
 
 [![Gem Version](https://badge.fury.io/rb/lizhi-fm.svg)](https://badge.fury.io/rb/lizhi-fm)
 [![Build Status](https://travis-ci.org/hex0cter/litchi-fm.svg?branch=master)](https://travis-ci.org/hex0cter/litchi-fm)
@@ -8,7 +8,7 @@ This Ruby gem allows you to download music files from lizhi.fm from command line
 ## How to install it
 
 ```bash
-  gem install -g lizhi-fm
+  gem install lizhi-fm
 ```
 
 ## How to download music files
