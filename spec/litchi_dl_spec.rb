@@ -1,9 +1,9 @@
 require "spec_helper"
 require "mp3info"
 
-describe LitchiFm::Downloader do
+describe LizhiFm::Downloader do
   it 'can download mp3 files' do
-    downloader = LitchiFm::Downloader.new(File.join('spec', 'test-data', 'download.yaml'))
+    downloader = LizhiFm::Downloader.new(File.join('spec', 'test-data', 'download.yaml'))
     result = downloader.start
 
     expect(result[:failures]).to be_empty

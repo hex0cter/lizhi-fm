@@ -1,8 +1,8 @@
 require File.expand_path("../lib/version", __FILE__)
 
 Gem::Specification.new do |s|
-  s.name         = 'litchi-fm'
-  s.version      = LitchiFm::VERSION
+  s.name         = 'lizhi-fm'
+  s.version      = LizhiFm::VERSION
   s.date         = '2018-01-08'
   s.summary      = "Download mp3 from Lizhi.fm"
   s.description  = "Comamnd line tool to download your favourite mp3 from lizhi.fm."
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
 
   s.files        = Dir["{lib}/**/*.rb", "bin/*", "LICENSE", "*.md"]
   s.require_path = 'lib'
-  s.executables = ["litchi"]
-  s.homepage     = 'http://rubygems.org/gems/litchi-fm'
+  s.executables = ["lizhi"]
+  s.homepage     = 'http://rubygems.org/gems/lizhi-fm'
   s.license      = 'MIT'
 end

@@ -1,10 +1,21 @@
 require 'yaml'
 require 'rest-client'
 
-module LitchiFm
+module LizhiFm
   class Downloader
-    def initialize(resource_file)
-      @config = YAML::load(File.open(resource_file))
+    def initialize(resource)
+      raise "File '#{resource}' doesn't exist!" unless File.exist?(resource)
+
+      @config = YAML::load(File.open(resource))
+      raise "Invalid yaml file: '#{resource}'" unless @config
+
+      if @config['headers'].nil?
+        raise "Invalid format: missing 'headers' section in '#{resource}'"
+      end
+
+      if @config['resources'].nil?
+        raise "Invalid format: missing 'resources' section in '#{resource}'"
+      end
     end
 
     def start

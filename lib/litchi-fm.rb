@@ -1,1 +1,0 @@
-require 'litchi-fm/downloader'

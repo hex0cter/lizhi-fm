@@ -1,14 +1,14 @@
 #!/usr/bin/env ruby
 
-require 'litchi-fm'
+require 'lizhi-fm'
 require 'thor'
 
-class LitchiFmCLI < Thor
+class LizhiFmCLI < Thor
   desc "download <yaml>", "Download the mp3 according to the yaml file"
   option :yaml
   def download(yaml)
-    LitchiFm::Downloader.new(yaml).start
+    LizhiFm::Downloader.new(yaml).start
   end
 end
 
-LitchiFmCLI.start(ARGV)
+LizhiFmCLI.start(ARGV)

@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    litchi-fm (0.0.1)
+    lizhi-fm (0.0.1)
       rest-client (~> 2.0)
       thor (~> 0.19)
 
@@ -76,7 +76,7 @@ PLATFORMS
 
 DEPENDENCIES
   coveralls
-  litchi-fm!
+  lizhi-fm!
   rake
   rspec
   rspec-matcher
